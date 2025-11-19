@@ -1,0 +1,122 @@
+.swap-card {
+  background: rgba(7, 11, 26, 0.8);
+  border: 1px solid var(--border-color);
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 20px 60px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(18px);
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.swap-card h2 {
+  margin: 0 0 20px 0;
+  font-size: 26px;
+}
+
+.swap-input-group {
+  margin-bottom: 16px;
+}
+
+.swap-input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.input-wrapper input {
+  flex: 1;
+  padding: 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  font-size: 15px;
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.02);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.input-wrapper input:focus {
+  outline: none;
+  border-color: rgba(124, 93, 255, 0.8);
+  box-shadow: 0 0 0 4px rgba(124, 93, 255, 0.15);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.input-wrapper input:disabled {
+  background: rgba(255, 255, 255, 0.04);
+  cursor: not-allowed;
+  color: var(--text-muted);
+}
+
+.switch-button {
+  width: 44px;
+  height: 44px;
+  margin: 12px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, rgba(124, 93, 255, 0.9), rgba(76, 201, 240, 0.9));
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 10px 30px rgba(124, 93, 255, 0.35);
+}
+
+.switch-button:hover:not(:disabled) {
+  transform: rotate(180deg) scale(1.05);
+}
+
+.switch-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.swap-button {
+  width: 100%;
+  padding: 16px;
+  margin-top: 20px;
+  background: linear-gradient(120deg, #7c5dff, #4cc9f0);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.swap-button:hover:not(:disabled) {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 45px rgba(124, 93, 255, 0.35);
+}
+
+.swap-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
