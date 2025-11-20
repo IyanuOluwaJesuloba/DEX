@@ -126,8 +126,7 @@ function App() {
             <p className="eyebrow">Permissionless liquidity layer</p>
             <h2>Trade, swap, and earn with a refined on-chain experience</h2>
             <p className="hero-description">
-              SimpleDEX pairs a battle-tested AMM smart contract with a crisp interface designed for clarity
-              and speed. Swap any ERC-20 tokens, or provide liquidity and earn swap fees instantly.
+            Swap any ERC-20 tokens, or provide liquidity and earn swap fees instantly.
             </p>
             <div className="hero-tags">
               {HERO_TAGS.map((tag) => (
@@ -223,7 +222,6 @@ function App() {
         </main>
 
         <footer className="app-footer">
-          <p>SimpleDEX © 2024 · Built with Solidity, Foundry &amp; React</p>
           <span>Always verify contract addresses before trading.</span>
         </footer>
       </div>
