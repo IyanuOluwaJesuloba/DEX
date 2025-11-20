@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg-primary: #040611;
-  --bg-surface: #080d1f;
-  --bg-panel: rgba(12, 16, 33, 0.75);
-  --bg-card: #101a33;
-  --bg-card-soft: rgba(255, 255, 255, 0.02);
-  --border-color: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.16);
-  --text-primary: #f7fbff;
-  --text-secondary: #99a9c9;
-  --text-muted: #6c7aa5;
-  --accent: #7c5dff;
-  --accent-2: #4cc9f0;
-  --success: #45ffb8;
-  --warning: #ffb347;
-  --danger: #ff6f91;
-  --glow: rgba(124, 93, 255, 0.35);
+  --bg-primary: #210414;
+  --bg-surface: #ffffff;
+  --bg-panel: rgba(255, 255, 255, 0.9);
+  --bg-card: #fff8fb;
+  --bg-card-soft: rgba(122, 30, 58, 0.04);
+  --border-color: rgba(122, 30, 58, 0.18);
+  --border-strong: rgba(122, 30, 58, 0.35);
+  --text-primary: #2b0b19;
+  --text-secondary: #6b3b4d;
+  --text-muted: #a87388;
+  --accent: #7b1e3a;
+  --accent-2: #c7375f;
+  --success: #33aa77;
+  --warning: #e0902a;
+  --danger: #d22f55;
+  --glow: rgba(123, 30, 58, 0.25);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
