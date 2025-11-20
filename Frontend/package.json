@@ -16,7 +16,7 @@
     "wagmi": "^2.5.0",
     "@wagmi/core": "^2.5.0",
     "viem": "^2.0.0",
-    "lucide-react": "^0.344.0"
+    "lucide-react": "^0.554.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
